@@ -1,7 +1,10 @@
+"use client";
+
 
 const page = () => {
-    return (
-        <div>
+  console.log("where am i rendered?");
+  return (
+    <div>
           feed page!
         </div>
     );
