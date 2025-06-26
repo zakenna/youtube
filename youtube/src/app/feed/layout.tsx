@@ -1,8 +1,12 @@
+interface layProps {
+    childern: React.ReactNode;
+}
 
-const layout = () => {
+const layout = ({childern}:layProps) => {
     return (
         <div>
-            layout            
+            what?
+            {childern}             
         </div>
     );
 };
