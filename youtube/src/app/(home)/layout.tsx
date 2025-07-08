@@ -1,19 +1,16 @@
-import HomeLayout from "@/modules/home/ui/layouts/home-layout";
-import Search from "@/modules/home/ui/layouts/search";
+import { HomeLayout } from "@/modules/home/ui/layouts/home-layout";
 
-interface layoutProps {
+
+interface LayoutProps{
     children: React.ReactNode;
 }
 
-const layout = ({ children }: layoutProps) => {
+const Layout = ({children}:LayoutProps) => {
     return (
-        <div>
-            <HomeLayout>
-                {children}
-            </HomeLayout>
-            <Search/>
-        </div>
+        <HomeLayout>
+          {children}
+        </HomeLayout>
     );
 };
 
-export default layout;
+export default Layout;
