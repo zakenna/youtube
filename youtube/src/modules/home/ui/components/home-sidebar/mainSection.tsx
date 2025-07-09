@@ -4,7 +4,7 @@ import { SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, Side
 import { HomeIcon, PlaySquareIcon, FlameIcon } from "lucide-react";
 import Link from "next/link";
 
-const items = [
+export const items = [
   {
     title: "Home",
     url: "/",
