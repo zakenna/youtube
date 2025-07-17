@@ -1,8 +1,16 @@
+import React from "react";
 
-export const Trending = () => {
+interface trendProps{
+  children: React.ReactNode
+}
+
+
+const Trending = ({children}:trendProps) => {
   return (
     <div>
-      This is Subscribe videos!
+      {children}
     </div>
   );
 };
+
+export default Trending;

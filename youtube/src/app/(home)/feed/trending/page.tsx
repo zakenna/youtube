@@ -1,7 +1,8 @@
+
 const page = () => {
   return (
     <div>
-      I will load videos in the future!
+      This is trend videos!
     </div>
   );
 };
